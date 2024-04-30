@@ -1,14 +1,8 @@
 const inquirer = require("inquirer");
 const mysql = require("mysql2");
 require('dotenv').config();
-// create a MySQL connection
-// const connection = mysql.createConnection({
-//     host: "localhost",
-//     // port: 3001,
-//     user: "root",
-//     password: "",
-//     database: "employee-Tracker_db",
-// });
+
+// console.log(process.env);
 
 const connection = mysql.createConnection({
     host: 'localhost',
