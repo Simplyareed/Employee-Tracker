@@ -35,7 +35,6 @@ select any of the prompts that will achieve what you are looking for. This can b
  
  ## Usage
 
- [Untitled_ Apr 29, 2024 8_39 PM.webm](https://github.com/Simplyareed/Employee-Tracker/assets/157844688/bfe9c025-7d8f-4d13-8621-ca1881832645)
 
 
  
