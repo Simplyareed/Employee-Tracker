@@ -42,8 +42,8 @@ function start() {
     inquirer
         .prompt({
             type: "list",
-            name: "action",
-            message: "What would you like to do?",
+            name: "choice",
+            message: "Pleses select an action:",
             choices: [
                 "View all departments",
                 "View all roles",
@@ -55,8 +55,8 @@ function start() {
                 "Update an employee role",
                 "View Employees by Manager",
                 "View Employees by Department",
-                "Delete Departments | Roles | Employees",
-                "View the total utilized budget of a department",
+                "Delete Departments, Roles, Employees",
+                "View the total  budget of a specific department",
                 "Exit",
             ],
         })
@@ -83,7 +83,7 @@ function start() {
             if (actions[response.action]) {
                 actions[response.action]();
             } else {
-                console.log("Invalid action selected.");
+                console.log("Invalid action.");
             }});
         };
 
